@@ -16,6 +16,6 @@ spec:
         - name: web
           image: pradeepthimmireddy/kubernetesdemowebapp
           ports:
-            - containerPort: 5000
+            - NodePort: 5000
               name: http
               protocol: TCP
